@@ -1,0 +1,25 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+@using EPiServerSite1.Models.Repositories;
+
+@model EPiServerSite1.Models.Pages.AdminPage
+
+@{
+    StudentContext context = new StudentContext();
+}
+
+<h1>Vacker admin interface</h1>
+
+<table>
+    @foreach (var student in context.Students)
+    {
+        <tr>
+            <td>
+                @student.FirstName
+            </td>
+            <td>
+                @student.LastName
+            </td>
+        </tr>
+    }
+</table>

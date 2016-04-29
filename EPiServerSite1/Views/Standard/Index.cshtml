@@ -1,0 +1,1481 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+
+@model EPiServerSite1.Models.Pages.StandardPage
+
+<div>
+  @Html.PropertyFor(m => m.MainBody)
+</div>
+
+<!doctype html>
+<html class="no-js" lang="sv-SE" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6189932/659646/css/fonts.css" />
+    <link rel="icon" type="image/png" href="http://www.newton.se/content/themes/newton/assets/img/pngs/favicon.png" sizes="96x96">
+
+    <!-- This site is optimized with the Yoast WordPress SEO plugin v2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+    <title>Newton - yrkeshögskoleutbildningar och diplomutbildningar</title>
+    <meta name="description" content="Newton utbildar i branscher som efterfrågar arbetskraft!" />
+    <link rel="canonical" href="http://www.newton.se/" />
+    <meta property="og:locale" content="sv_SE" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Newton - yrkeshögskoleutbildningar och diplomutbildningar" />
+    <meta property="og:description" content="Newton utbildar i branscher som efterfrågar arbetskraft!" />
+    <meta property="og:url" content="http://www.newton.se/" />
+    <meta property="og:site_name" content="Newton" />
+    <script type='application/ld+json'>
+        {"@@context":"http:\/\/schema.org","@@type":"WebSite","url":"http:\/\/www.newton.se\/","name":"Newton","potentialAction":{"@@type":"SearchAction","target":"http:\/\/www.newton.se\/?s={search_term}","query-input":"required name=search_term"}}
+    </script>
+    <script type='application/ld+json'>
+        {"@@context":"http:\/\/schema.org","@@type":"WebSite","url":"http:\/\/www.newton.se\/","name":"Newton","potentialAction":{"@@type":"SearchAction","target":"http:\/\/www.newton.se\/?s={search_term}","query-input":"required name=search_term"}}
+    </script>
+    <!-- / Yoast WordPress SEO plugin. -->
+
+    <link rel='stylesheet' id='roots_css-css' href='http://www.newton.se/content/themes/newton/assets/css/main.min.css?7c7c8a7123978ae40f47d8b99fc817a4' type='text/css' media='all' />
+    <!-- This site uses the Google Analytics by Yoast plugin v5.4 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+    <script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-11298044-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+    </script>
+    <!-- / Google Analytics by Yoast -->
+    <script type='text/javascript' src='http://www.newton.se/content/themes/newton/assets/js/vendor/modernizr.min.js'></script>
+    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.newton.se/wp/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.newton.se/wp/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.1.5" />
+    <link rel='shortlink' href='http://www.newton.se/' />
+    <script>window.jQuery || document.write('<script src="http://www.newton.se/content/themes/newton/assets/vendor/jquery/dist/jquery.min.js?1.11.1"><\/script>')</script>
+    <link rel="alternate" type="application/rss+xml" title="Newton Feed" href="http://www.newton.se/feed/">
+</head>
+
+
+
+<body class="home page page-id-1379 page-template page-template-template-home page-template-template-home-php">
+
+    <!--[if lt IE 8]>
+      <div class="alert alert-warning">
+        You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.    </div>
+    <![endif]-->
+
+
+    <header class="header" role="banner">
+
+
+        <a class="logo" href="http://www.newton.se/">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 283.5 141.7" enable-background="new 0 0 283.5 141.7" xml:space="preserve"><path fill="#FFFFFF" d="M243.8 55H242v-0.6h4.2V55h-1.8v5.7h-0.7V55zM247.3 54.4h1.1l1.9 5.7 1.9-5.7h1.1v6.2h-0.7V55l-2 5.7h-0.9l-1.9-5.7v5.7h-0.6V54.4z" /><path fill="#FFFFFF" d="M38.7 82.1c0-1.6 0-29.1 0-29.1l25.9 38.8c0 0 0.3 0.3 0.7 0.3 0.1 0 2.5 0 2.5 0 0.3 0 0.5-0.2 0.5-0.5 0 0 0-33.7 0-35.1 0-1.6 0.3-3.9 0.3-3.9h0c0.3-2.6 2.6-4.6 5.2-4.6l0.2 0c0.3 0 0.5-0.2 0.5-0.5V47c0-0.3-0.2-0.5-0.5-0.5 0 0-2 0-2.6 0 -1 0-2.7 0.3-4.3 0.3v0c-1.6 0-3.3-0.3-4.3-0.3 -0.6 0-2.6 0-2.6 0 -0.3 0-0.5 0.2-0.5 0.5v0.7c0 0.3 0.2 0.5 0.5 0.5l0.2 0c2.7 0 4.9 2 5.2 4.6h0c0 0 0.3 2.3 0.3 3.9l0 23.6L43.5 46.9c0 0-0.3-0.4-1-0.4H41c-1 0-2.7 0.3-4.3 0.3l0 0c-1.6 0-3.3-0.3-4.3-0.3 -0.6 0-1.8 0-1.8 0 -0.3 0-0.5 0.2-0.5 0.5v0.7c0 0.3 0.2 0.5 0.5 0.5l0.2 0c2.7 0 4.9 2 5.2 4.6h0c0 0 0.3 2.3 0.3 3.9 0 0 0 23.8 0 25.5 0 1.6-0.3 3.9-0.3 3.9l0 0c-0.3 2.6-2.6 4.6-5.2 4.6l-0.2 0c-0.3 0-0.5 0.2-0.5 0.5v0.7c0 0.3 0.2 0.5 0.5 0.5 0 0 2 0 2.6 0 1 0 2.7-0.3 4.3-0.3l0 0c1.6 0 3.3 0.3 4.3 0.3 0.6 0 2.6 0 2.6 0 0.3 0 0.5-0.2 0.5-0.5v-0.7c0-0.3-0.2-0.5-0.5-0.5l-0.2 0c-2.7 0-4.9-2-5.2-4.6l0 0C38.9 86 38.7 83.7 38.7 82.1L38.7 82.1zM206.2 82.8c-0.8 2-1.9 3.8-3.2 5.3 -1.4 1.5-3 2.6-4.9 3.5 -1.9 0.8-4 1.3-6.3 1.3 -2.2 0-4.2-0.4-6.1-1.1 -1.8-0.7-3.4-1.8-4.7-3.1 -1.3-1.3-2.4-3-3.1-4.9 -0.7-1.9-1.1-4-1.1-6.2v-0.7c0-2.4 0.4-4.5 1.2-6.6 0.8-2 1.9-3.8 3.2-5.3 1.4-1.5 3-2.6 5-3.5 1.9-0.8 4-1.3 6.3-1.3 2.2 0 4.2 0.4 6.1 1.1 1.8 0.7 3.4 1.8 4.7 3.1 1.3 1.3 2.4 3 3.1 4.8 0.7 1.9 1.1 4 1.1 6.3v0.7C207.4 78.6 207 80.8 206.2 82.8zM199.9 76.5c0-9.6-2.6-14.4-7.8-14.4 -5.2 0-7.8 4.8-7.8 14.4 0 9.6 2.6 14.4 7.8 14.4C197.3 90.9 199.9 86.1 199.9 76.5zM138.9 92.5 165.8 62.5c0.9 0 8.3 0 8.3 0 0.3 0 0.5-0.2 0.5-0.5v-0.7c0-0.3-0.2-0.5-0.5-0.5 0 0-8.1 0-8.3 0 -0.3 0-0.3-0.3-0.3-0.3s0-8.1 0-9.1c0-0.7-0.7-0.4-0.7-0.4s-3.8 1.9-4.2 2.1c-0.6 0.3-0.7 0.9-0.7 0.9s-0.9 5.3-1.1 6c-0.2 0.8-0.8 0.8-0.8 0.8l-15.2 0c-0.3 0-0.5 0.2-0.5 0.5V62c0 0.3 0.2 0.5 0.5 0.5l1.4 0c1.4 0 2.5 1.1 2.5 2.5 0 0.3-0.1 0.6-0.2 0.9l-6.1 16.9 -0.3 1.3 -0.3-1.3 -5.5-14.9 -0.7-2c-0.1-0.3-0.2-0.6-0.2-0.9 0-1.4 1.1-2.5 2.5-2.5l1 0c0.3 0 0.5-0.2 0.5-0.5v-0.7c0-0.3-0.2-0.5-0.5-0.5 0 0-2 0-2.6 0 -1 0-2.7 0.3-4.3 0.3l0 0c-1.6 0-3.3-0.3-4.3-0.3 -0.6 0-2.6 0-2.6 0 -0.3 0-0.5 0.2-0.5 0.5V62c0 0.3 0.2 0.5 0.5 0.5l1.5 0c1.4 0 2.5 1.1 2.5 2.5 0 0.3 0 0.5-0.1 0.8l-0.5 1.5 -5.4 15.4 -0.3 1.3 -0.3-1.3 -6.2-16 -0.3-0.9c-0.1-0.3-0.2-0.6-0.2-0.9 0-1.4 1.1-2.5 2.5-2.5l1 0c0.3 0 0.5-0.2 0.5-0.5v-0.7c0-0.3-0.2-0.5-0.5-0.5 0 0-2 0-2.6 0 -1 0-3.4 0.3-5 0.3l0 0c-1.6 0-3.3-0.3-4.3-0.3 -0.6 0-3.8 0-3.8 0 -0.3 0-0.5 0.2-0.5 0.5V62c0 0.3 0.2 0.5 0.5 0.5h0c0.4 0 3.7 0.1 4.4 2l11.1 27.1 0.2 0.6c0 0 0.2 0.4 0.5 0.4 0.3 0 1.3 0 1.6 0 0.4 0 0.6-0.4 0.6-0.4l0.2-0.6 7.4-21.4 0.3-1.3 0.3 1.3 8 21.4 0.2 0.6c0 0 0.2 0.4 0.5 0.4 0.3 0 1.3 0 1.6 0 0.4 0 0.6-0.4 0.6-0.4l0.2-0.6 10-27.1c0.7-1.7 2.5-2 4.3-2h4.3c0.4 0 0.3 0.3 0.3 0.3v24.9c0.7 1.7 1.8 2.9 3.2 3.8 1.4 0.9 3.2 1.3 5.3 1.3 2.2 0 4-0.7 5.4-2 1.4-1.3 2.1-3.1 2.1-5.2v-1.6c0-0.8-0.2-1.5-0.7-1.9 -0.4-0.5-0.9-0.7-1.5-0.7 0 0-0.3 0-0.3 0.3 0 0.3 0 3.9 0 3.9 0 1.5-0.3 2.6-0.9 3.4s-1.4 1.2-2.5 1.2c-2.2 0-3.3-1.9-3.3-5.5V62.8C165.5 62.8 165.5 62.5 165.8 62.5zM240.1 87.9c0 2.3 3 2.6 3.4 2.6l1 0c0.3 0 0.5 0.2 0.5 0.5v0.7c0 0.3-0.2 0.5-0.5 0.5 0 0-3.2 0-3.8 0 -0.9 0-2.5-0.3-4.1-0.3l0 0c-1.5 0-3.1 0.3-4 0.3 -0.6 0-3.8 0-3.8 0 -0.3 0-0.5-0.2-0.5-0.5v-0.7c0-0.3 0.2-0.5 0.5-0.5l1 0c0.4 0 3.4-0.3 3.4-2.6l0-20.9c-1-2.3-2.6-3.5-4.9-3.5 -1.8 0-3.4 0.7-4.8 2 -1.4 1.3-2.5 3.2-3.3 5.7 0 0 0 14.3 0 16.6 0 2.3 3 2.6 3.4 2.6l1 0c0.3 0 0.5 0.2 0.5 0.5v0.7c0 0.3-0.2 0.5-0.5 0.5 0 0-3.2 0-3.8 0 -0.9 0-2.5-0.3-4.1-0.3l0 0c-1.5 0-3.1 0.3-4 0.3 -0.6 0-3.8 0-3.8 0 -0.3 0-0.5-0.2-0.5-0.5v-0.7c0-0.3 0.2-0.5 0.5-0.5l1 0c0.4 0 3.4-0.3 3.4-2.6 0-2.3 0-22.9 0-22.9 0-1.4-1.1-2.5-2.5-2.5l-1.5 0c-0.3 0-0.5-0.2-0.5-0.5v-0.7c0-0.3 0.2-0.5 0.5-0.5 0 0 2 0 2.6 0l7.9 0c0 0 0.3 0 0.3 0.3 0 0.3 0 6.2 0 6.2 2.6-4.8 6.2-7.2 10.8-7.2 2.1 0 4 0.6 5.6 1.8s2.8 2.9 3.6 5.1L240.1 87.9zM102.5 74.3c0 0 0 0.7-0.7 0.7 0 0-19.9 0-20.2 0 -0.3 0-0.3 0.3-0.3 0.3v2.3c0 4 0.8 7 2.5 9.3 1.7 2.2 3.9 3.3 6.8 3.3 2.4 0 4.3-0.7 6-2.2 1.6-1.5 2.7-3.6 3.3-6.3 0 0 0.1-0.5 0.5-0.5 0.4 0 0.5 0 0.5 0 0.4 0 0.7 0.2 1 0.5 0.3 0.3 0.5 1 0.4 1.4 -0.2 1.1-0.8 2.8-1.6 4 -0.8 1.2-1.7 2.2-2.8 3.1 -1.1 0.8-2.4 1.5-3.8 2 -1.4 0.5-2.9 0.7-4.5 0.7 -4.9 0-8.8-1.4-11.5-4.1C75.4 86 74 82.1 74 77.2v-0.7c0-2.3 0.4-4.5 1.2-6.5 0.8-2 1.9-3.7 3.2-5.2 1.4-1.5 3-2.6 5-3.4 1.9-0.8 4-1.2 6.3-1.2 1.9 0 3.6 0.3 5.1 1 1.5 0.7 2.9 1.7 4 2.9 1.1 1.3 2 2.8 2.7 4.5C102.1 70.4 102.4 72.2 102.5 74.3L102.5 74.3zM93.6 64.8c-1.1-1.7-2.7-2.6-4.6-2.6 -2 0-3.6 0.9-5 2.8 -1.3 1.9-2.2 4.5-2.5 8 0 0 12.5 0 13.2 0 0.7 0 0.7-0.7 0.7-0.7C95.3 69 94.8 66.5 93.6 64.8z" /></svg>
+        </a>
+
+        <button type="button" class="nav-mobile-toggle jq-nav-mobile-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <nav class="nav-desktop" role="navigation">
+
+            <div class="menu-toppmeny-container">
+                <ul id="menu-toppmeny" class="menu">
+                    <li id="menu-item-1503" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1503"><a href="en/utbildning/">Undersida</a></li>
+                    <li id="menu-item-1869" class="menu-item menu-item-type-custom menu-teim-object-custom menu-item-1869"><a href="en/testadminpage/">Databas Sida</a></li>
+                    <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="api/studentsapi">API</a></li>
+                    <!-- <li id="menu-item-1504" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1504"><a href="/utbildningar/filter/diplom/">Diplomutbildningar</a></li>
+                    <li id="menu-item-1869" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1869"><a href="http://www.newton.se/tjanster/">Företag</a></li>
+                    <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://www.newton.se/om-newton/">Om Newton</a></li>
+                    <li id="menu-item-1666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1666"><a href="http://www.newton.se/om-newton/aktuellt/">Aktuellt</a></li>
+                    <li id="menu-item-1668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1668"><a href="http://www.newton.se/om-newton/kontakta-oss/">Kontakt</a></li>
+                    <li id="menu-item-1670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1670"><a href="/?s=">Sök</a></li> -->
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="page-divider">
+            <div id="top-searchform" style="display: none;">
+                <form role="search" method="get" class="search-form form-inline" action="http://www.newton.se/">
+                    <label class="sr-only">Search for:</label>
+                    <div class="input-group">
+                        <input type="search" value="" name="s" class="search-field form-control input-lg" placeholder="Sök på Newton">
+                        <span class="input-group-btn">
+                            <button type="submit" class="search-submit btn btn-primary btn-lg">
+                                Sök <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <i class="page-icon"></i>
+
+        <h1 class="page-title">
+            Utbildar för framtiden
+        </h1>
+
+
+        <p class="page-byline">
+            Newton grundades 1993 och bedriver yrkeshögskole- och diplomutbildningar i Stockholm, Göteborg och Malmö. <br />
+            Utbildningarna bedrivs inom områdena Fastighet, Försäljning, Teknik och IT.
+        </p>
+
+
+
+        <div class="page-buttons">
+
+
+
+            <a href="/utbildningar/filter/yh/" class="img-btn btn-yh"></a>
+            <span class="btn-divider">– eller –</span>
+            <a href="/utbildningar/filter/diplom/" class="img-btn btn-diplom"></a>
+
+        </div>
+
+
+        </div>
+
+        <div class="scroll-down-text">
+            Skrolla ned <i class="fa fa-angle-down"></i>
+        </div>
+
+
+    </header>
+
+    <nav class="nav-mobile">
+
+        <div>
+
+            <div class="nav-mobile-top">
+
+                <div class="nav-mobile-top-close jq-nav-mobile-close">
+                    <button type="button" class="nav-mobile-toggle jq-nav-mobile-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-close"></i>
+                    </button>
+                </div>
+
+                <div class="nav-mobile-top-logo">
+                    <a class="logo" href="http://www.newton.se/">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 283.5 141.7" enable-background="new 0 0 283.5 141.7" xml:space="preserve"><path fill="#FFFFFF" d="M243.8 55H242v-0.6h4.2V55h-1.8v5.7h-0.7V55zM247.3 54.4h1.1l1.9 5.7 1.9-5.7h1.1v6.2h-0.7V55l-2 5.7h-0.9l-1.9-5.7v5.7h-0.6V54.4z" /><path fill="#FFFFFF" d="M38.7 82.1c0-1.6 0-29.1 0-29.1l25.9 38.8c0 0 0.3 0.3 0.7 0.3 0.1 0 2.5 0 2.5 0 0.3 0 0.5-0.2 0.5-0.5 0 0 0-33.7 0-35.1 0-1.6 0.3-3.9 0.3-3.9h0c0.3-2.6 2.6-4.6 5.2-4.6l0.2 0c0.3 0 0.5-0.2 0.5-0.5V47c0-0.3-0.2-0.5-0.5-0.5 0 0-2 0-2.6 0 -1 0-2.7 0.3-4.3 0.3v0c-1.6 0-3.3-0.3-4.3-0.3 -0.6 0-2.6 0-2.6 0 -0.3 0-0.5 0.2-0.5 0.5v0.7c0 0.3 0.2 0.5 0.5 0.5l0.2 0c2.7 0 4.9 2 5.2 4.6h0c0 0 0.3 2.3 0.3 3.9l0 23.6L43.5 46.9c0 0-0.3-0.4-1-0.4H41c-1 0-2.7 0.3-4.3 0.3l0 0c-1.6 0-3.3-0.3-4.3-0.3 -0.6 0-1.8 0-1.8 0 -0.3 0-0.5 0.2-0.5 0.5v0.7c0 0.3 0.2 0.5 0.5 0.5l0.2 0c2.7 0 4.9 2 5.2 4.6h0c0 0 0.3 2.3 0.3 3.9 0 0 0 23.8 0 25.5 0 1.6-0.3 3.9-0.3 3.9l0 0c-0.3 2.6-2.6 4.6-5.2 4.6l-0.2 0c-0.3 0-0.5 0.2-0.5 0.5v0.7c0 0.3 0.2 0.5 0.5 0.5 0 0 2 0 2.6 0 1 0 2.7-0.3 4.3-0.3l0 0c1.6 0 3.3 0.3 4.3 0.3 0.6 0 2.6 0 2.6 0 0.3 0 0.5-0.2 0.5-0.5v-0.7c0-0.3-0.2-0.5-0.5-0.5l-0.2 0c-2.7 0-4.9-2-5.2-4.6l0 0C38.9 86 38.7 83.7 38.7 82.1L38.7 82.1zM206.2 82.8c-0.8 2-1.9 3.8-3.2 5.3 -1.4 1.5-3 2.6-4.9 3.5 -1.9 0.8-4 1.3-6.3 1.3 -2.2 0-4.2-0.4-6.1-1.1 -1.8-0.7-3.4-1.8-4.7-3.1 -1.3-1.3-2.4-3-3.1-4.9 -0.7-1.9-1.1-4-1.1-6.2v-0.7c0-2.4 0.4-4.5 1.2-6.6 0.8-2 1.9-3.8 3.2-5.3 1.4-1.5 3-2.6 5-3.5 1.9-0.8 4-1.3 6.3-1.3 2.2 0 4.2 0.4 6.1 1.1 1.8 0.7 3.4 1.8 4.7 3.1 1.3 1.3 2.4 3 3.1 4.8 0.7 1.9 1.1 4 1.1 6.3v0.7C207.4 78.6 207 80.8 206.2 82.8zM199.9 76.5c0-9.6-2.6-14.4-7.8-14.4 -5.2 0-7.8 4.8-7.8 14.4 0 9.6 2.6 14.4 7.8 14.4C197.3 90.9 199.9 86.1 199.9 76.5zM138.9 92.5 165.8 62.5c0.9 0 8.3 0 8.3 0 0.3 0 0.5-0.2 0.5-0.5v-0.7c0-0.3-0.2-0.5-0.5-0.5 0 0-8.1 0-8.3 0 -0.3 0-0.3-0.3-0.3-0.3s0-8.1 0-9.1c0-0.7-0.7-0.4-0.7-0.4s-3.8 1.9-4.2 2.1c-0.6 0.3-0.7 0.9-0.7 0.9s-0.9 5.3-1.1 6c-0.2 0.8-0.8 0.8-0.8 0.8l-15.2 0c-0.3 0-0.5 0.2-0.5 0.5V62c0 0.3 0.2 0.5 0.5 0.5l1.4 0c1.4 0 2.5 1.1 2.5 2.5 0 0.3-0.1 0.6-0.2 0.9l-6.1 16.9 -0.3 1.3 -0.3-1.3 -5.5-14.9 -0.7-2c-0.1-0.3-0.2-0.6-0.2-0.9 0-1.4 1.1-2.5 2.5-2.5l1 0c0.3 0 0.5-0.2 0.5-0.5v-0.7c0-0.3-0.2-0.5-0.5-0.5 0 0-2 0-2.6 0 -1 0-2.7 0.3-4.3 0.3l0 0c-1.6 0-3.3-0.3-4.3-0.3 -0.6 0-2.6 0-2.6 0 -0.3 0-0.5 0.2-0.5 0.5V62c0 0.3 0.2 0.5 0.5 0.5l1.5 0c1.4 0 2.5 1.1 2.5 2.5 0 0.3 0 0.5-0.1 0.8l-0.5 1.5 -5.4 15.4 -0.3 1.3 -0.3-1.3 -6.2-16 -0.3-0.9c-0.1-0.3-0.2-0.6-0.2-0.9 0-1.4 1.1-2.5 2.5-2.5l1 0c0.3 0 0.5-0.2 0.5-0.5v-0.7c0-0.3-0.2-0.5-0.5-0.5 0 0-2 0-2.6 0 -1 0-3.4 0.3-5 0.3l0 0c-1.6 0-3.3-0.3-4.3-0.3 -0.6 0-3.8 0-3.8 0 -0.3 0-0.5 0.2-0.5 0.5V62c0 0.3 0.2 0.5 0.5 0.5h0c0.4 0 3.7 0.1 4.4 2l11.1 27.1 0.2 0.6c0 0 0.2 0.4 0.5 0.4 0.3 0 1.3 0 1.6 0 0.4 0 0.6-0.4 0.6-0.4l0.2-0.6 7.4-21.4 0.3-1.3 0.3 1.3 8 21.4 0.2 0.6c0 0 0.2 0.4 0.5 0.4 0.3 0 1.3 0 1.6 0 0.4 0 0.6-0.4 0.6-0.4l0.2-0.6 10-27.1c0.7-1.7 2.5-2 4.3-2h4.3c0.4 0 0.3 0.3 0.3 0.3v24.9c0.7 1.7 1.8 2.9 3.2 3.8 1.4 0.9 3.2 1.3 5.3 1.3 2.2 0 4-0.7 5.4-2 1.4-1.3 2.1-3.1 2.1-5.2v-1.6c0-0.8-0.2-1.5-0.7-1.9 -0.4-0.5-0.9-0.7-1.5-0.7 0 0-0.3 0-0.3 0.3 0 0.3 0 3.9 0 3.9 0 1.5-0.3 2.6-0.9 3.4s-1.4 1.2-2.5 1.2c-2.2 0-3.3-1.9-3.3-5.5V62.8C165.5 62.8 165.5 62.5 165.8 62.5zM240.1 87.9c0 2.3 3 2.6 3.4 2.6l1 0c0.3 0 0.5 0.2 0.5 0.5v0.7c0 0.3-0.2 0.5-0.5 0.5 0 0-3.2 0-3.8 0 -0.9 0-2.5-0.3-4.1-0.3l0 0c-1.5 0-3.1 0.3-4 0.3 -0.6 0-3.8 0-3.8 0 -0.3 0-0.5-0.2-0.5-0.5v-0.7c0-0.3 0.2-0.5 0.5-0.5l1 0c0.4 0 3.4-0.3 3.4-2.6l0-20.9c-1-2.3-2.6-3.5-4.9-3.5 -1.8 0-3.4 0.7-4.8 2 -1.4 1.3-2.5 3.2-3.3 5.7 0 0 0 14.3 0 16.6 0 2.3 3 2.6 3.4 2.6l1 0c0.3 0 0.5 0.2 0.5 0.5v0.7c0 0.3-0.2 0.5-0.5 0.5 0 0-3.2 0-3.8 0 -0.9 0-2.5-0.3-4.1-0.3l0 0c-1.5 0-3.1 0.3-4 0.3 -0.6 0-3.8 0-3.8 0 -0.3 0-0.5-0.2-0.5-0.5v-0.7c0-0.3 0.2-0.5 0.5-0.5l1 0c0.4 0 3.4-0.3 3.4-2.6 0-2.3 0-22.9 0-22.9 0-1.4-1.1-2.5-2.5-2.5l-1.5 0c-0.3 0-0.5-0.2-0.5-0.5v-0.7c0-0.3 0.2-0.5 0.5-0.5 0 0 2 0 2.6 0l7.9 0c0 0 0.3 0 0.3 0.3 0 0.3 0 6.2 0 6.2 2.6-4.8 6.2-7.2 10.8-7.2 2.1 0 4 0.6 5.6 1.8s2.8 2.9 3.6 5.1L240.1 87.9zM102.5 74.3c0 0 0 0.7-0.7 0.7 0 0-19.9 0-20.2 0 -0.3 0-0.3 0.3-0.3 0.3v2.3c0 4 0.8 7 2.5 9.3 1.7 2.2 3.9 3.3 6.8 3.3 2.4 0 4.3-0.7 6-2.2 1.6-1.5 2.7-3.6 3.3-6.3 0 0 0.1-0.5 0.5-0.5 0.4 0 0.5 0 0.5 0 0.4 0 0.7 0.2 1 0.5 0.3 0.3 0.5 1 0.4 1.4 -0.2 1.1-0.8 2.8-1.6 4 -0.8 1.2-1.7 2.2-2.8 3.1 -1.1 0.8-2.4 1.5-3.8 2 -1.4 0.5-2.9 0.7-4.5 0.7 -4.9 0-8.8-1.4-11.5-4.1C75.4 86 74 82.1 74 77.2v-0.7c0-2.3 0.4-4.5 1.2-6.5 0.8-2 1.9-3.7 3.2-5.2 1.4-1.5 3-2.6 5-3.4 1.9-0.8 4-1.2 6.3-1.2 1.9 0 3.6 0.3 5.1 1 1.5 0.7 2.9 1.7 4 2.9 1.1 1.3 2 2.8 2.7 4.5C102.1 70.4 102.4 72.2 102.5 74.3L102.5 74.3zM93.6 64.8c-1.1-1.7-2.7-2.6-4.6-2.6 -2 0-3.6 0.9-5 2.8 -1.3 1.9-2.2 4.5-2.5 8 0 0 12.5 0 13.2 0 0.7 0 0.7-0.7 0.7-0.7C95.3 69 94.8 66.5 93.6 64.8z" /></svg>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div data-url="http://www.newton.se/" class="nav-mobile-page jq-nav-mobile-page">
+
+                Hem
+
+            </div>
+
+
+            <div data-url="http://www.newton.se/utbildningar/" class="nav-mobile-page jq-nav-mobile-page">
+
+                Utbildningar
+
+                <div class="sub-pages">
+
+
+                    <a href="http://www.newton.se/utbildningar/">Utbildningar</a>
+
+
+                    <a href="http://www.newton.se/utbildningar/andra-om-oss/">Andra om oss</a>
+
+
+                    <a href="http://www.newton.se/utbildningar/yh-eller-diplom/">Yh eller Diplom?</a>
+
+
+                    <a href="http://www.newton.se/utbildningar/fragor-svar/">Frågor & svar</a>
+
+
+                    <a href="http://www.newton.se/utbildningar/var-pedagogik/">Vår pedagogik</a>
+
+
+                    <a href="http://www.newton.se/utbildningar/samarbetspartners/">Samarbetspartners</a>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div data-url="http://www.newton.se/om-newton/" class="nav-mobile-page jq-nav-mobile-page">
+
+                Om Newton
+
+                <div class="sub-pages">
+
+
+                    <a href="http://www.newton.se/om-newton/">Om Newton</a>
+
+
+                    <a href="http://www.newton.se/om-newton/alumni/">Alumni</a>
+
+
+                    <a href="http://www.newton.se/om-newton/aktuellt/">Aktuellt</a>
+
+
+                    <a href="http://www.newton.se/om-newton/sir-isaac-newton/">Sir Isaac Newton</a>
+
+
+                    <a href="http://www.newton.se/om-newton/lediga-tjanster/">Lediga tjänster</a>
+
+
+                    <a href="http://www.newton.se/om-newton/kontakta-oss/">Kontakta Newton</a>
+
+
+                    <a href="http://www.newton.se/om-newton/ledning/">Affärsidé och Ledning</a>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div data-url="http://www.newton.se/om-newton/aktuellt/" class="nav-mobile-page jq-nav-mobile-page">
+
+                Aktuellt
+
+            </div>
+
+
+            <div data-url="http://www.newton.se/tjanster/" class="nav-mobile-page jq-nav-mobile-page">
+
+                Företag
+
+                <div class="sub-pages">
+
+
+                    <a href="http://www.newton.se/tjanster/">Företag</a>
+
+
+                    <a href="http://www.newton.se/tjanster/uppdragsutbildningar/">Uppdragsutbildningar</a>
+
+
+                    <a href="http://www.newton.se/tjanster/seminarier/">Seminarier</a>
+
+
+                    <a href="http://www.newton.se/tjanster/lets-talk-about/">Let's talk about</a>
+
+
+                    <a href="http://www.newton.se/tjanster/auktorisation/">AFF-Auktorisation</a>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div data-url="http://www.newton.se/om-newton/kontakta-oss/" class="nav-mobile-page jq-nav-mobile-page">
+
+                Kontakt
+
+            </div>
+
+
+            <div data-url="/?s=" class="nav-mobile-page jq-nav-mobile-page">
+
+                Sök
+
+            </div>
+
+
+        </div>
+
+    </nav>
+
+    <div class="wrap container" role="document">
+        <div class="content">
+            <main class="main" role="main">
+
+
+
+                <section class="home-usp home-usp-mobile">
+
+                    <div class="row">
+
+                        <a href="#" class="usp-next jq-usp-next"><i class="fa fa-angle-right"></i></a>
+
+                        <div class="usp-item jq-usp-item active">
+                            <span class="usp-nbr"
+                                  data-number="95"
+                                  data-unit="%"></span>
+                            <span class="usp-txt">
+                                av våra studenter får jobb <br />
+                                inom sex månader
+                            </span>
+                        </div>
+
+                        <div class="usp-item jq-usp-item inactive">
+                            <span class="usp-nbr"
+                                  data-number="200"
+                                  data-unit=""></span>
+                            <span class="usp-txt">
+                                samarbetspartners inom <br />
+                                de branscher vi verkar inom
+                            </span>
+                        </div>
+
+                        <div class="usp-item jq-usp-item inactive">
+                            <span class="usp-nbr"
+                                  data-number="500"
+                                  data-unit=""></span>
+                            <span class="usp-txt">
+                                studenter i Stockholm, <br />
+                                Göteborg och Malmö
+                            </span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section class="home-usp">
+
+                    <div class="row">
+
+                        <div class="col-sm-4 usp-item">
+                            <span class="usp-nbr"
+                                  data-number="95"
+                                  data-unit="%"></span>
+                            <span class="usp-txt">
+                                av våra studenter får jobb <br />
+                                inom sex månader
+                            </span>
+                        </div>
+
+                        <div class="col-sm-4 usp-item">
+                            <span class="usp-nbr"
+                                  data-number="200"
+                                  data-unit=""></span>
+                            <span class="usp-txt">
+                                samarbetspartners inom <br />
+                                de branscher vi verkar inom
+                            </span>
+                        </div>
+
+                        <div class="col-sm-4 usp-item">
+                            <span class="usp-nbr"
+                                  data-number="500"
+                                  data-unit=""></span>
+                            <span class="usp-txt">
+                                studenter i Stockholm, <br />
+                                Göteborg och Malmö
+                            </span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="home-welcome">
+
+                    <div class="row ">
+
+                        <div class="col-sm-6">
+                            <p class="lead">Newtons utbildningar har utformats i nära samarbete med näringslivet. Detta gör att vi kan erbjuda utbildningar som är väl förankrade i arbetslivet och som ger våra studenter de kunskaper och färdigheter som behövs och som efterfrågas av de branscher vi arbetar mot. Newton finns idag i Stockholm, Malmö och Göteborg.</p>
+                            <p>Vill du utbilda dig till en yrkesroll som efterfrågas i arbetslivet? Bra. Då har Newton utbildningarna för dig. Vi utbildar bara i branscher som efterfrågar arbetskraft och kompetens. Ansök till någon av Newtons Yh-utbildningar <a href="https://apply.yh-antagning.se/to/newton/ht2015" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://apply.yh-antagning.se/to/newton/ht2015', 'här']);" title="här">här</a></p>
+                            <a class="btn btn-primary btn-lg" href="http://www.newton.se/om-newton/">Läs mer om Newton</a>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="educations-list widget widget-educations widget-grid">
+
+                                <h2 class="widget-title">
+                                    <span class="hidden-sm">Populära </span>utbildningar    <a href="/utbildningar" class="btn btn-primary pull-right">Se alla <span class="visible-xl">utbildningar</span></a>
+                                </h2>
+
+                                <div class="grid">
+
+
+                                    <a href="http://www.newton.se/utbildning/systemutvecklare-net-goteborg/" class="grid-item educations-item yh">
+
+                                        <div class="educations-item-inner">
+
+                                            <div class="educations-item-icon">
+                                                <i class="circle">
+                                                    <?xml version="1.0" encoding="utf-8" ?>
+                                                    <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                                    <svg version="1.1"
+                                                         id="Layer_1" inkscape:version="0.48.1 r9760" sodipodi:docname="noun_project_322.svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                                                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-240.8 377 74.1 40.9"
+                                                         enable-background="new -240.8 377 74.1 40.9" xml:space="preserve">
+<sodipodi:namedview inkscape:window-maximized="1" inkscape:current-layer="Layer_1" inkscape:window-y="24" inkscape:window-x="0" inkscape:window-height="776" inkscape:pageopacity="0" inkscape:window-width="1280" inkscape:pageshadow="2" id="namedview3134" objecttolerance="10" bordercolor="#666666" pagecolor="#ffffff" borderopacity="1" gridtolerance="10" inkscape:cy="27.577" inkscape:zoom="5.21" inkscape:cx="50" guidetolerance="10" showgrid="false">
+	</sodipodi:namedview>
+<path id="path3132" inkscape:connector-curvature="0" sodipodi:nodetypes="cssccscsscc" d="M-183,417.9h-49.4
+	c-4.6,0-8.4-3.7-8.4-8.4c0-3.9,2.7-7.2,6.3-8.1c1.6-4.1,5.4-7,9.7-7.5c0.5-9.4,8.3-16.9,17.8-16.9c7,0,13.2,4.1,16.1,10.2
+	c2.4-1.3,5-2,7.8-2c9,0,16.3,7.3,16.3,16.3C-166.7,410.5-174,417.9-183,417.9z" />
+</svg>
+                                                </i>
+                                            </div>
+
+                                            <div class="educations-item-title">
+                                                Systemutvecklare .NET
+                                            </div>
+
+                                            <div class="educations-item-meta">
+
+                                                <span class="educations-item-types">
+                                                    yh
+                                                </span>
+
+                                                <span class="educations-item-cities">
+                                                    Göteborg
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+
+                                    <a href="http://www.newton.se/utbildning/systemutvecklare-net-stockholm/" class="grid-item educations-item yh">
+
+                                        <div class="educations-item-inner">
+
+                                            <div class="educations-item-icon">
+                                                <i class="circle">
+                                                    <?xml version="1.0" encoding="utf-8" ?>
+                                                    <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                                    <svg version="1.1"
+                                                         id="Layer_1" inkscape:version="0.48.1 r9760" sodipodi:docname="noun_project_322.svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                                                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-240.8 377 74.1 40.9"
+                                                         enable-background="new -240.8 377 74.1 40.9" xml:space="preserve">
+<sodipodi:namedview inkscape:window-maximized="1" inkscape:current-layer="Layer_1" inkscape:window-y="24" inkscape:window-x="0" inkscape:window-height="776" inkscape:pageopacity="0" inkscape:window-width="1280" inkscape:pageshadow="2" id="namedview3134" objecttolerance="10" bordercolor="#666666" pagecolor="#ffffff" borderopacity="1" gridtolerance="10" inkscape:cy="27.577" inkscape:zoom="5.21" inkscape:cx="50" guidetolerance="10" showgrid="false">
+	</sodipodi:namedview>
+<path id="path3132" inkscape:connector-curvature="0" sodipodi:nodetypes="cssccscsscc" d="M-183,417.9h-49.4
+	c-4.6,0-8.4-3.7-8.4-8.4c0-3.9,2.7-7.2,6.3-8.1c1.6-4.1,5.4-7,9.7-7.5c0.5-9.4,8.3-16.9,17.8-16.9c7,0,13.2,4.1,16.1,10.2
+	c2.4-1.3,5-2,7.8-2c9,0,16.3,7.3,16.3,16.3C-166.7,410.5-174,417.9-183,417.9z" />
+</svg>
+                                                </i>
+                                            </div>
+
+                                            <div class="educations-item-title">
+                                                Systemutvecklare .NET
+                                            </div>
+
+                                            <div class="educations-item-meta">
+
+                                                <span class="educations-item-types">
+                                                    yh
+                                                </span>
+
+                                                <span class="educations-item-cities">
+                                                    Stockholm
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+
+                                    <a href="http://www.newton.se/utbildning/systemutvecklare-java-2/" class="grid-item educations-item yh">
+
+                                        <div class="educations-item-inner">
+
+                                            <div class="educations-item-icon">
+                                                <i class="circle">
+                                                    <?xml version="1.0" encoding="utf-8" ?>
+                                                    <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                                    <svg version="1.1"
+                                                         id="Layer_1" inkscape:version="0.48.1 r9760" sodipodi:docname="noun_project_322.svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                                                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-240.8 377 74.1 40.9"
+                                                         enable-background="new -240.8 377 74.1 40.9" xml:space="preserve">
+<sodipodi:namedview inkscape:window-maximized="1" inkscape:current-layer="Layer_1" inkscape:window-y="24" inkscape:window-x="0" inkscape:window-height="776" inkscape:pageopacity="0" inkscape:window-width="1280" inkscape:pageshadow="2" id="namedview3134" objecttolerance="10" bordercolor="#666666" pagecolor="#ffffff" borderopacity="1" gridtolerance="10" inkscape:cy="27.577" inkscape:zoom="5.21" inkscape:cx="50" guidetolerance="10" showgrid="false">
+	</sodipodi:namedview>
+<path id="path3132" inkscape:connector-curvature="0" sodipodi:nodetypes="cssccscsscc" d="M-183,417.9h-49.4
+	c-4.6,0-8.4-3.7-8.4-8.4c0-3.9,2.7-7.2,6.3-8.1c1.6-4.1,5.4-7,9.7-7.5c0.5-9.4,8.3-16.9,17.8-16.9c7,0,13.2,4.1,16.1,10.2
+	c2.4-1.3,5-2,7.8-2c9,0,16.3,7.3,16.3,16.3C-166.7,410.5-174,417.9-183,417.9z" />
+</svg>
+                                                </i>
+                                            </div>
+
+                                            <div class="educations-item-title">
+                                                Systemutvecklare JAVA
+                                            </div>
+
+                                            <div class="educations-item-meta">
+
+                                                <span class="educations-item-types">
+                                                    yh
+                                                </span>
+
+                                                <span class="educations-item-cities">
+                                                    Göteborg
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+
+                                    <a href="http://www.newton.se/utbildning/diplomerad-projektledare-malmo/" class="grid-item educations-item diplom">
+
+                                        <div class="educations-item-inner">
+
+                                            <div class="educations-item-icon">
+                                                <i class="circle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 32 20.5" enable-background="new 0 0 32 20.5" xml:space="preserve"><polygon points="16.7 0 0 5.4 0 7.3 16.7 2.6 32 5.7 32 3.5 " /><polyline points="16.7 4.5 0 8.7 0 10.6 16.7 7.1 16.7 7.1 32 9.4 32 7.2 16.7 4.5 " /><polygon points="16.7 9 16.7 9 0 12 0.1 14 16.7 11.6 16.7 11.6 32 13.1 32 10.9 " /><polyline points="16.7 16.1 32 16.8 32 14.6 16.7 13.5 16.7 13.5 0.1 15.3 0.1 17.3 16.7 16.1 " /><polygon points="32 18.3 16.7 18 16.7 18 0.1 18.6 0.1 20.5 32 20.5 " /></svg>
+                                                </i>
+                                            </div>
+
+                                            <div class="educations-item-title">
+                                                Diplomerad Projektledare Bygg/Fastighet
+                                            </div>
+
+                                            <div class="educations-item-meta">
+
+                                                <span class="educations-item-types">
+                                                    diplom
+                                                </span>
+
+                                                <span class="educations-item-cities">
+                                                    Malmö
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+
+                                    <a href="http://www.newton.se/utbildning/vvs-ingenjor/" class="grid-item educations-item yh">
+
+                                        <div class="educations-item-inner">
+
+                                            <div class="educations-item-icon">
+                                                <i class="circle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 32 20.5" enable-background="new 0 0 32 20.5" xml:space="preserve"><polygon points="16.7 0 0 5.4 0 7.3 16.7 2.6 32 5.7 32 3.5 " /><polyline points="16.7 4.5 0 8.7 0 10.6 16.7 7.1 16.7 7.1 32 9.4 32 7.2 16.7 4.5 " /><polygon points="16.7 9 16.7 9 0 12 0.1 14 16.7 11.6 16.7 11.6 32 13.1 32 10.9 " /><polyline points="16.7 16.1 32 16.8 32 14.6 16.7 13.5 16.7 13.5 0.1 15.3 0.1 17.3 16.7 16.1 " /><polygon points="32 18.3 16.7 18 16.7 18 0.1 18.6 0.1 20.5 32 20.5 " /></svg>
+                                                </i>
+                                            </div>
+
+                                            <div class="educations-item-title">
+                                                VVS-ingenjör
+                                            </div>
+
+                                            <div class="educations-item-meta">
+
+                                                <span class="educations-item-types">
+                                                    yh
+                                                </span>
+
+                                                <span class="educations-item-cities">
+                                                    Stockholm
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+
+                                    <a href="http://www.newton.se/utbildning/systemutvecklare-java/" class="grid-item educations-item yh">
+
+                                        <div class="educations-item-inner">
+
+                                            <div class="educations-item-icon">
+                                                <i class="circle">
+                                                    <?xml version="1.0" encoding="utf-8" ?>
+                                                    <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                                    <svg version="1.1"
+                                                         id="Layer_1" inkscape:version="0.48.1 r9760" sodipodi:docname="noun_project_322.svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                                                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-240.8 377 74.1 40.9"
+                                                         enable-background="new -240.8 377 74.1 40.9" xml:space="preserve">
+<sodipodi:namedview inkscape:window-maximized="1" inkscape:current-layer="Layer_1" inkscape:window-y="24" inkscape:window-x="0" inkscape:window-height="776" inkscape:pageopacity="0" inkscape:window-width="1280" inkscape:pageshadow="2" id="namedview3134" objecttolerance="10" bordercolor="#666666" pagecolor="#ffffff" borderopacity="1" gridtolerance="10" inkscape:cy="27.577" inkscape:zoom="5.21" inkscape:cx="50" guidetolerance="10" showgrid="false">
+	</sodipodi:namedview>
+<path id="path3132" inkscape:connector-curvature="0" sodipodi:nodetypes="cssccscsscc" d="M-183,417.9h-49.4
+	c-4.6,0-8.4-3.7-8.4-8.4c0-3.9,2.7-7.2,6.3-8.1c1.6-4.1,5.4-7,9.7-7.5c0.5-9.4,8.3-16.9,17.8-16.9c7,0,13.2,4.1,16.1,10.2
+	c2.4-1.3,5-2,7.8-2c9,0,16.3,7.3,16.3,16.3C-166.7,410.5-174,417.9-183,417.9z" />
+</svg>
+                                                </i>
+                                            </div>
+
+                                            <div class="educations-item-title">
+                                                Systemutvecklare JAVA
+                                            </div>
+
+                                            <div class="educations-item-meta">
+
+                                                <span class="educations-item-types">
+                                                    yh
+                                                </span>
+
+                                                <span class="educations-item-cities">
+                                                    Malmö
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="home-videos">
+
+                    <div class="row">
+
+                        <div class="col-sm-4 video-item">
+                            <a class="jq-video-modal" href="https://www.youtube.com/embed/xka4bBCSdWg?autoplay=1">
+                                <i class="plain-icon icon-play">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<path d="M46.418 32.385c-0.287-0.18-0.644-0.183-0.94-0.02c-0.294 0.165-0.475 0.475-0.475 0.811v22.092 c0 0.3 0.2 0.6 0.5 0.811c0.142 0.1 0.3 0.1 0.5 0.118c0.169 0 0.337-0.045 0.486-0.138l17.993-11.046 c0.276-0.169 0.443-0.468 0.443-0.791c0-0.323-0.167-0.622-0.443-0.791L46.418 32.385z M46.861 53.609V34.836l15.289 9.4 L46.861 53.609z M51.918 10.494c-18.597 0-33.728 15.131-33.728 33.728c0 18.6 15.1 33.7 33.7 33.7 c18.597 0 33.726-15.129 33.726-33.726C85.644 25.6 70.5 10.5 51.9 10.494z M51.918 76.1 c-17.574 0-31.871-14.297-31.871-31.869c0-17.574 14.297-31.871 31.871-31.871c17.572 0 31.9 14.3 31.9 31.9 C83.787 61.8 69.5 76.1 51.9 76.091z" class="style0" />
+</svg>
+                                </i>
+                                <p>
+                                    Intervju med Janika om hennes tid på skolan.
+                                </p>
+                                <img src="http://www.newton.se/wp/../shared/2014/12/video1.jpg" />
+                            </a>
+                        </div>
+
+                        <div class="col-sm-4 video-item">
+                            <a class="jq-video-modal" href="https://www.youtube.com/embed/dzxDBiYN2-Y?autoplay=1">
+                                <i class="plain-icon icon-play">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<path d="M46.418 32.385c-0.287-0.18-0.644-0.183-0.94-0.02c-0.294 0.165-0.475 0.475-0.475 0.811v22.092 c0 0.3 0.2 0.6 0.5 0.811c0.142 0.1 0.3 0.1 0.5 0.118c0.169 0 0.337-0.045 0.486-0.138l17.993-11.046 c0.276-0.169 0.443-0.468 0.443-0.791c0-0.323-0.167-0.622-0.443-0.791L46.418 32.385z M46.861 53.609V34.836l15.289 9.4 L46.861 53.609z M51.918 10.494c-18.597 0-33.728 15.131-33.728 33.728c0 18.6 15.1 33.7 33.7 33.7 c18.597 0 33.726-15.129 33.726-33.726C85.644 25.6 70.5 10.5 51.9 10.494z M51.918 76.1 c-17.574 0-31.871-14.297-31.871-31.869c0-17.574 14.297-31.871 31.871-31.871c17.572 0 31.9 14.3 31.9 31.9 C83.787 61.8 69.5 76.1 51.9 76.091z" class="style0" />
+</svg>
+                                </i>
+                                <p>
+                                    Fastighetsbranschen berättar.
+                                </p>
+                                <img src="http://www.newton.se/wp/../shared/2014/12/video2.jpg" />
+                            </a>
+                        </div>
+
+                        <div class="col-sm-4 video-item">
+                            <a class="jq-video-modal" href="https://www.youtube.com/embed/HnD-ZLRP0ok?autoplay=1">
+                                <i class="plain-icon icon-play">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<path d="M46.418 32.385c-0.287-0.18-0.644-0.183-0.94-0.02c-0.294 0.165-0.475 0.475-0.475 0.811v22.092 c0 0.3 0.2 0.6 0.5 0.811c0.142 0.1 0.3 0.1 0.5 0.118c0.169 0 0.337-0.045 0.486-0.138l17.993-11.046 c0.276-0.169 0.443-0.468 0.443-0.791c0-0.323-0.167-0.622-0.443-0.791L46.418 32.385z M46.861 53.609V34.836l15.289 9.4 L46.861 53.609z M51.918 10.494c-18.597 0-33.728 15.131-33.728 33.728c0 18.6 15.1 33.7 33.7 33.7 c18.597 0 33.726-15.129 33.726-33.726C85.644 25.6 70.5 10.5 51.9 10.494z M51.918 76.1 c-17.574 0-31.871-14.297-31.871-31.869c0-17.574 14.297-31.871 31.871-31.871c17.572 0 31.9 14.3 31.9 31.9 C83.787 61.8 69.5 76.1 51.9 76.091z" class="style0" />
+</svg>
+                                </i>
+                                <p>
+                                    Hur är det att studera på Newtons fastighetsutbildningar?
+                                </p>
+                                <img src="http://www.newton.se/wp/../shared/2014/12/video3.jpg" />
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="nwt-modal nwt-modal-video">
+
+                        <div class="nwt-modal-close">
+                            <i class="rounded-icon icon-fa pointer">
+                                <span class="inner">
+                                    <i class="fa fa-close"></i>
+                                </span>
+                            </i>
+                        </div>
+
+                        <div class="nwt-modal-container">
+                            <iframe width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="home-news-sidebar row">
+
+                    <div class="content-main col-md-8">
+
+                        <div class="news-list home">
+                            <a href="http://www.newton.se/information-om-antagningen-ht-15/" class="news-item">
+
+                                <div class="news-image">
+                                    <img width="353" height="204" src="http://www.newton.se/wp/../shared/2014/12/keyboard-old-typewriter-3319-375x550-e1432123960101-353x204.jpg" class="img-responsive wp-post-image" alt="keyboard-old-typewriter-3319-375x550" />
+                                </div>
+
+                                <h3 class="news-title">
+                                    Information om antagningen HT 2015
+                                </h3>
+
+                                <p class="news-excerpt">
+                                    <time class="published" datetime="2015-05-20T14:10:39+00:00">20 maj, 2015</time>
+                                    Information om antagningen till Newtons utbildningar HT 2015 Antagningen till utbildningarna VVS-ingenjör och Systemutvecklare .NET i Stockholm har stängts. Newton accepterar sena ansökningar till dessa utbildningar, se information nedan. Antagningen till utbildningarna Systemutvecklare .NET, Systemutvecklare Java&hellip;      <span class="link-read-more"><i class="plain-icon icon-read-more"></i> Läs mer</span>
+                                </p>
+
+                            </a>
+                            <a href="http://www.newton.se/arbetsmarknadsdagen-2015/" class="news-item">
+
+                                <div class="news-image">
+                                    <img width="385" height="204" src="http://www.newton.se/wp/../shared/2015/04/11160467_10155472048170626_1228145715_n-385x204.jpg" class="img-responsive wp-post-image" alt="11160467_10155472048170626_1228145715_n" />
+                                </div>
+
+                                <h3 class="news-title">
+                                    Arbetsmarknadsdagen VT 2015
+                                </h3>
+
+                                <p class="news-excerpt">
+                                    <time class="published" datetime="2015-04-24T10:09:47+00:00">24 april, 2015</time>
+                                    STORT TACK! Torsdagen den 23 april öppnade Newton i Stockholm dörrarna till arbetsmarknadsdagen VT 2015. 17 härliga företag kom för att mingla med våra studenter inom IT, Fastighet och Försäljning. Många företag valde att &#8221;speedintervjua&#8221; studenterna&hellip;      <span class="link-read-more"><i class="plain-icon icon-read-more"></i> Läs mer</span>
+                                </p>
+
+                            </a>
+                            <a href="http://www.newton.se/joachim-bytte-bransch/" class="news-item">
+
+                                <div class="news-image">
+                                    <img width="385" height="204" src="http://www.newton.se/wp/../shared/2015/01/Newton_bw-0866-385x204.jpg" class="img-responsive wp-post-image" alt="Newton_bw-0866" />
+                                </div>
+
+                                <h3 class="news-title">
+                                    Joachim bytte bransch!
+                                </h3>
+
+                                <p class="news-excerpt">
+                                    <time class="published" datetime="2015-04-09T16:31:46+00:00">9 april, 2015</time>
+                                    Joachim Nilsson är 52 år gammal och bor i Stuvsta. För ett tag sedan gick Joachim utbildningen Diplomerad Fastighetsförvaltare på Newton och idag jobbar han som Fastighetsförvaltare på Wallfast AB i Stockholm. Vi ringde upp Joachim&hellip;      <span class="link-read-more"><i class="plain-icon icon-read-more"></i> Läs mer</span>
+                                </p>
+
+                            </a>
+                            <a href="http://www.newton.se/newtons-handledarpris-gick-denna-gang-till-henrik-nordlund-rikshem/" class="news-item">
+
+                                <div class="news-image">
+                                    <img width="385" height="204" src="http://www.newton.se/wp/../shared/2015/03/11072619_10155371447965626_557346812_n-e1427702409159-385x204.jpg" class="img-responsive wp-post-image" alt="11072619_10155371447965626_557346812_n" />
+                                </div>
+
+                                <h3 class="news-title">
+                                    Henrik Nordlund från Rikshem fick Newtons handledarpris!
+                                </h3>
+
+                                <p class="news-excerpt">
+                                    <time class="published" datetime="2015-03-30T10:01:27+00:00">30 mars, 2015</time>
+                                    Grattis till Newtons handledarpris Henrik! Tack! Det känns riktigt kul! Berätta lite om dig själv, vem är Henrik Nordlund? Jag har studerat industriell ekonomi på KTH och kompletterade även med en kandidatexamen i nationalekonomi på Stockholms&hellip;      <span class="link-read-more"><i class="plain-icon icon-read-more"></i> Läs mer</span>
+                                </p>
+
+                            </a>
+                            <a href="http://www.newton.se/tack-alla-som-besokte-oss-pa-yh-massorna-i-stockholm-och-goteborg/" class="news-item">
+
+                                <div class="news-image">
+                                    <img width="385" height="204" src="http://www.newton.se/wp/../shared/2015/03/11072166_10155332303900626_572759225_n-e1427704084482-385x204.jpg" class="img-responsive wp-post-image" alt="11072166_10155332303900626_572759225_n" />
+                                </div>
+
+                                <h3 class="news-title">
+                                    Tack alla som kom!
+                                </h3>
+
+                                <p class="news-excerpt">
+                                    <time class="published" datetime="2015-03-20T15:53:12+00:00">20 mars, 2015</time>
+                                    Tack alla som besökte oss på Yh-mässorna i Stockholm, Göteborg och Malmö! I veckorna som gick var Newton utställare på tre Yh-mässor (Stockholm, Göteborg och Malmö). Till vår stora glädje var alla mässorna välbesökta (Stockholmsmässan hade&hellip;      <span class="link-read-more"><i class="plain-icon icon-read-more"></i> Läs mer</span>
+                                </p>
+
+                            </a>
+                            <a href="http://www.newton.se/gor-ditt-framtida-jag-en-tjanst-utbilda-dig-inom/" class="news-item">
+
+                                <div class="news-image">
+                                    <img width="385" height="204" src="http://www.newton.se/wp/../shared/2015/01/JAVA-e1422282715481-385x204.jpg" class="img-responsive wp-post-image" alt="JAVA" />
+                                </div>
+
+                                <h3 class="news-title">
+                                    Gör ditt framtida jag en tjänst &#8211; Utbilda dig inom IT!
+                                </h3>
+
+                                <p class="news-excerpt">
+                                    <time class="published" datetime="2015-01-26T15:44:57+00:00">26 januari, 2015</time>
+                                    Är du osäker på om IT-branschen är någonting för dig? Du är bara en Googlesökning ifrån att förstå hur många Systemutvecklare (både inom .NET och JAVA) som faktiskt efterfrågas i Sverige idag. Företagen bråkar om kompetensen&hellip;      <span class="link-read-more"><i class="plain-icon icon-read-more"></i> Läs mer</span>
+                                </p>
+
+                            </a>
+                            <a href="http://www.newton.se/nya-utbildningar-nya-mojligheter/" class="news-item">
+
+                                <div class="news-image">
+                                    <img width="385" height="204" src="http://www.newton.se/wp/../shared/2015/01/Newton_bw-9692-e1420810762600-385x204.jpg" class="img-responsive wp-post-image" alt="Newton aktuellt" />
+                                </div>
+
+                                <h3 class="news-title">
+                                    NYA YH-UTBILDNINGAR &#8211; NYA MÖJLIGHETER
+                                </h3>
+
+                                <p class="news-excerpt">
+                                    <time class="published" datetime="2015-01-21T10:18:54+00:00">21 januari, 2015</time>
+                                    Glädjande besked &#8211; yrkeshögskoleutbildningsstarter! Idag har Newton fått glädjande besked från Yh-myndigheten, till hösten startar vi följande Yh-utbildningar: Systemutvecklare .NET (i Stockholm, Göteborg och Malmö) Systemutvecklare JAVA (i Göteborg och Malmö) Kravanalytiker (i Malmö) VVS-ingenjör (i&hellip;      <span class="link-read-more"><i class="plain-icon icon-read-more"></i> Läs mer</span>
+                                </p>
+
+                            </a>
+                            <a href="http://www.newton.se/traffa-newton-var/" class="news-item">
+
+                                <div class="news-image">
+                                    <img width="385" height="204" src="http://www.newton.se/wp/../shared/2015/01/MG_7295-newton_-385x204.jpg" class="img-responsive wp-post-image" alt="_MG_7295-newton_" />
+                                </div>
+
+                                <h3 class="news-title">
+                                    Träffa Newton i vår!
+                                </h3>
+
+                                <p class="news-excerpt">
+                                    <time class="published" datetime="2015-01-08T09:44:47+00:00">8 januari, 2015</time>
+                                    TRÄFFA OSS PÅ NEWTON! Är du nyfiken på Newton är du mer än välkommen att besöka någon av våra skolor i Stockholm, Göteborg eller Malmö. Våra Öppet Hus-datum är: Öppet Hus i Stockholm &#8211; 4 maj,&hellip;      <span class="link-read-more"><i class="plain-icon icon-read-more"></i> Läs mer</span>
+                                </p>
+
+                            </a>
+                            <a href="http://www.newton.se/rekordmanga-foretag-pa-newtons-arbetsmarknads-och-lia-dag/" class="news-item">
+
+                                <div class="news-image">
+                                    <img width="385" height="204" src="http://www.newton.se/wp/../shared/2014/12/10423884_1077951272219979_561329486826535155_n-385x204.jpg" class="img-responsive wp-post-image" alt="alt text" />
+                                </div>
+
+                                <h3 class="news-title">
+                                    Rekordmånga företag på Arbetsmarknadsdagen
+                                </h3>
+
+                                <p class="news-excerpt">
+                                    <time class="published" datetime="2014-12-04T14:53:52+00:00">4 december, 2014</time>
+                                    Först och främst: Tack alla som gjorde Arbetsmarknads- och LIA-dagen fantastisk! För tredje året i rad bjöd Newton i Stockholm och i Malmö in företag från olika branscher för att träffa våra studenter på vår Arbetsmarknads-&hellip;      <span class="link-read-more"><i class="plain-icon icon-read-more"></i> Läs mer</span>
+                                </p>
+
+                            </a>
+                            <a href="http://www.newton.se/newton-utsedd-till-gasell/" class="news-item">
+
+                                <div class="news-image">
+                                    <img width="385" height="204" src="http://www.newton.se/wp/../shared/2014/12/publik_galan978x385-385x204.jpg" class="img-responsive wp-post-image" alt="publik_galan978x385" />
+                                </div>
+
+                                <h3 class="news-title">
+                                    Newton utsedd till Gasell
+                                </h3>
+
+                                <p class="news-excerpt">
+                                    <time class="published" datetime="2014-12-04T14:51:07+00:00">4 december, 2014</time>
+                                    Dagens Industri utser sedan år 2000 de snabbast växande företagen i Sverige. De företag som får utmärkelsen kallas för Sveriges Gaseller. Bakgrunden till DI’s utmärkelse är för att inspirera och gynna den svenska tillväxten. Nu kan&hellip;      <span class="link-read-more"><i class="plain-icon icon-read-more"></i> Läs mer</span>
+                                </p>
+
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <aside class="content-sidebar col-md-4">
+
+                        <div class="widget widget-partners widget-vertical">
+
+                            <h3 class="widget-title">
+                                Några av våra 200 samarbetspartners
+                            </h3>
+
+                            <p class="widget-intro">
+                                YH-utbildningar ska leda till jobb. Hos oss får du aktuell, relevant kunskap och träning genom verkliga case, praktikfall. Och mer än 1000 timmars praktik (LIA).    <a href="http://www.newton.se/utbildningar/samarbetspartners/">Klicka här</a> och läs mer om hur vi samarbetar med näringslivet!
+                            </p>
+
+                            <div class="widget-content">
+
+
+                                <a target="_blank" href="http://www.skane.se/">
+                                    <img width="233" height="216" src="http://www.newton.se/wp/../shared/2015/01/Region-Skåne.png" class="attachment-full wp-post-image" alt="Region Skåne" />
+                                </a>
+
+
+                                <a target="_blank" href="http://callistaenterprise.se/">
+                                    <img width="152" height="47" src="http://www.newton.se/wp/../shared/2015/02/Callista-Enterprise.png" class="attachment-full wp-post-image" alt="Callista Enterprise" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.ramboll.se/">
+                                    <img width="120" height="25" src="http://www.newton.se/wp/../shared/2015/01/Ramböll.png" class="attachment-full wp-post-image" alt="Ramböll" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.northern.net/">
+                                    <img width="69" height="76" src="http://www.newton.se/wp/../shared/2015/01/Northern-Parklife.jpg" class="attachment-full wp-post-image" alt="Northern Parklife" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.bouvet.se/">
+                                    <img width="82" height="46" src="http://www.newton.se/wp/../shared/2015/02/Bouvet.png" class="attachment-full wp-post-image" alt="Bouvet" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.castra.se/page/">
+                                    <img width="233" height="67" src="http://www.newton.se/wp/../shared/2015/01/Castra.gif" class="attachment-full wp-post-image" alt="Castra" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.eon.se/privatkund/">
+                                    <img width="170" height="51" src="http://www.newton.se/wp/../shared/2015/01/eon.png" class="attachment-full wp-post-image" alt="eon" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.knowit.se/">
+                                    <img width="320" height="74" src="http://www.newton.se/wp/../shared/2015/01/Knowit.jpg" class="attachment-full wp-post-image" alt="Knowit" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.wiseit.se/">
+                                    <img width="259" height="79" src="http://www.newton.se/wp/../shared/2015/02/WiseIT.png" class="attachment-full wp-post-image" alt="WiseIT" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.mitsubishielectric.se/">
+                                    <img width="218" height="91" src="http://www.newton.se/wp/../shared/2015/01/Mitsubishi-Electric.png" class="attachment-full wp-post-image" alt="Mitsubishi Electric" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.furst-vvs.se/">
+                                    <img width="398" height="57" src="http://www.newton.se/wp/../shared/2015/02/FurstVVS.png" class="attachment-full wp-post-image" alt="FurstVVS" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.karisma.se/">
+                                    <img width="155" height="65" src="http://www.newton.se/wp/../shared/2015/01/karisma.png" class="attachment-full wp-post-image" alt="karisma" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.extenda.se/">
+                                    <img width="352" height="69" src="http://www.newton.se/wp/../shared/2015/02/Extenda.jpg" class="attachment-full wp-post-image" alt="Extenda" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.helsingborg.se/Medborgare/Kommun-och-politik/Kommunens-organisation/Forvaltningar-och-namnder/karnfastigheter-/">
+                                    <img width="65" height="69" src="http://www.newton.se/wp/../shared/2015/01/Helsingborgs-Stad.gif" class="attachment-full wp-post-image" alt="Helsingborgs Stad" />
+                                </a>
+
+
+                                <a target="_blank" href="http://www.levin-vvs.se/">
+                                    <img width="134" height="65" src="http://www.newton.se/wp/../shared/2015/01/Levin-VVS-konsult-AB.gif" class="attachment-full wp-post-image" alt="Levin VVS-konsult AB" />
+                                </a>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="widget widget-gallery">
+                            <h3 class="widget-title">Bilder från våra skolor</h3>
+                            <i class="widget-gallery-expand fa fa-expand"></i>
+                            <div class="widget-gallery-overlay"></div>
+                            <div class="widget-gallery-container">
+                                <ul class="slides" style="display: none;">
+
+
+                                    <li>
+                                        <a href="http://www.newton.se/wp/../shared/2014/12/newton2014-0410.jpg">
+                                            <img src="http://www.newton.se/wp/../shared/2014/12/newton2014-0410-385x204.jpg" />
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="http://www.newton.se/wp/../shared/2015/01/MG_7074-newton_.jpg">
+                                            <img src="http://www.newton.se/wp/../shared/2015/01/MG_7074-newton_-385x204.jpg" />
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="http://www.newton.se/wp/../shared/2015/01/newton2014-0095.jpg">
+                                            <img src="http://www.newton.se/wp/../shared/2015/01/newton2014-0095-385x204.jpg" />
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="http://www.newton.se/wp/../shared/2015/01/newton2014-0316.jpg">
+                                            <img src="http://www.newton.se/wp/../shared/2015/01/newton2014-0316-385x204.jpg" />
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="http://www.newton.se/wp/../shared/2015/01/MG_7295-newton_-e1420706678621.jpg">
+                                            <img src="http://www.newton.se/wp/../shared/2015/01/MG_7295-newton_-385x204.jpg" />
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="http://www.newton.se/wp/../shared/2015/01/newton2014-0733.jpg">
+                                            <img src="http://www.newton.se/wp/../shared/2015/01/newton2014-0733-385x204.jpg" />
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="http://www.newton.se/wp/../shared/2015/01/newton2014-9824.jpg">
+                                            <img src="http://www.newton.se/wp/../shared/2015/01/newton2014-9824-385x204.jpg" />
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="http://www.newton.se/wp/../shared/2015/01/newton2014-0869.jpg">
+                                            <img src="http://www.newton.se/wp/../shared/2015/01/newton2014-0869-385x204.jpg" />
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="http://www.newton.se/wp/../shared/2015/01/newton2014-0499.jpg">
+                                            <img src="http://www.newton.se/wp/../shared/2015/01/newton2014-0499-385x204.jpg" />
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="http://www.newton.se/wp/../shared/2015/01/MG_7097-Newton_.jpg">
+                                            <img src="http://www.newton.se/wp/../shared/2015/01/MG_7097-Newton_-385x204.jpg" />
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="http://www.newton.se/wp/../shared/2015/01/newton2014-0285.jpg">
+                                            <img src="http://www.newton.se/wp/../shared/2015/01/newton2014-0285-385x204.jpg" />
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="nwt-modal nwt-modal-gallery">
+                            <div class="nwt-modal-close">
+                                <i class="rounded-icon icon-fa pointer">
+                                    <span class="inner">
+                                        <i class="fa fa-close"></i>
+                                    </span>
+                                </i>
+                            </div>
+                            <div class="nwt-modal-container">
+                                <ul class="slides">
+
+
+                                    <li style="background-image:url('http://www.newton.se/wp/../shared/2014/12/newton2014-0410-846x564.jpg');">
+                                    </li>
+
+
+                                    <li style="background-image:url('http://www.newton.se/wp/../shared/2015/01/MG_7074-newton_-832x564.jpg');">
+                                    </li>
+
+
+                                    <li style="background-image:url('http://www.newton.se/wp/../shared/2015/01/newton2014-0095-846x564.jpg');">
+                                    </li>
+
+
+                                    <li style="background-image:url('http://www.newton.se/wp/../shared/2015/01/newton2014-0316-846x564.jpg');">
+                                    </li>
+
+
+                                    <li style="background-image:url('http://www.newton.se/wp/../shared/2015/01/MG_7295-newton_-846x564.jpg');">
+                                    </li>
+
+
+                                    <li style="background-image:url('http://www.newton.se/wp/../shared/2015/01/newton2014-0733-846x564.jpg');">
+                                    </li>
+
+
+                                    <li style="background-image:url('http://www.newton.se/wp/../shared/2015/01/newton2014-9824-846x564.jpg');">
+                                    </li>
+
+
+                                    <li style="background-image:url('http://www.newton.se/wp/../shared/2015/01/newton2014-0869-846x564.jpg');">
+                                    </li>
+
+
+                                    <li style="background-image:url('http://www.newton.se/wp/../shared/2015/01/newton2014-0499-846x564.jpg');">
+                                    </li>
+
+
+                                    <li style="background-image:url('http://www.newton.se/wp/../shared/2015/01/MG_7097-Newton_-846x564.jpg');">
+                                    </li>
+
+
+                                    <li style="background-image:url('http://www.newton.se/wp/../shared/2015/01/newton2014-0285-846x564.jpg');">
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="widget widget-contact widget-vertical">
+                            <h3 class="widget-title">Vill du bli kontaktad?</h3>
+                            <p class="widget-intro">Vill du bli kontaktad av oss för mer information om Newton och våra utbildningar? Fyll i formuläret så hör vi av oss så fort vi kan.</p>
+                            <div class="custom-form">
+
+                                <div class='gf_browser_gecko gform_wrapper' id='gform_wrapper_2'>
+                                    <a id='gf_2' name='gf_2' class='gform_anchor'></a><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_2' id='gform_2' action='/#gf_2'>
+                                        <div class='gform_heading'>
+                                            <span class='gform_description'></span>
+                                        </div>
+                                        <div class='gform_body'>
+                                            <ul id='gform_fields_2' class='gform_fields top_label form_sublabel_below description_below'>
+                                                <li id='field_2_1' class='gfield gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_2_1'><span class='gfield_required'>*</span></label><div class='ginput_container'><input name='input_1' id='input_2_1' type='text' value='' class='medium' tabindex='1' placeholder='Namn' /></div></li>
+                                                <li id='field_2_2' class='gfield gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_2_2'><span class='gfield_required'>*</span></label><div class='ginput_container'><input name='input_2' id='input_2_2' type='text' value='' class='medium' tabindex='2' placeholder='E-post' /></div></li>
+                                                <li id='field_2_3' class='gfield field_sublabel_below field_description_below'><label class='gfield_label' for='input_2_3'></label><div class='ginput_container'><input name='input_3' id='input_2_3' type='text' value='' class='medium' tabindex='3' placeholder='Telefonnr (valfritt)' /></div></li>
+                                                <li id='field_2_4' class='gfield field_sublabel_below field_description_below'>
+                                                    <label class='gfield_label'></label><div class='ginput_container'>
+                                                        <ul class='gfield_checkbox' id='input_2_4'>
+                                                            <li class='gchoice_2_4_1'>
+                                                                <input name='input_4.1' type='checkbox' value='Ring mig' id='choice_2_4_1' tabindex='4' />
+                                                                <label for='choice_2_4_1' id='label_2_4_1'>Ring mig</label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class='gform_footer top_label'>
+                                            <input type='submit' id='gform_submit_button_2' class='gform_button button' value='Skicka' tabindex='5' onclick='if(window["gf_submitting_2"]){return false;}  if( !jQuery("#gform_2")[0].checkValidity || jQuery("#gform_2")[0].checkValidity()){window["gf_submitting_2"]=true;}  ' /> <input type='hidden' name='gform_ajax' value='form_id=2&amp;title=&amp;description=1&amp;tabindex=1' />
+                                            <input type='hidden' class='gform_hidden' name='is_submit_2' value='1' />
+                                            <input type='hidden' class='gform_hidden' name='gform_submit' value='2' />
+
+                                            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+                                            <input type='hidden' class='gform_hidden' name='state_2' value='WyJbXSIsImRiNmFiNzVhYzY4YzcyOWNkNWYwYjVhMTNlNDg2NDM0Il0=' />
+                                            <input type='hidden' class='gform_hidden' name='gform_target_page_number_2' id='gform_target_page_number_2' value='0' />
+                                            <input type='hidden' class='gform_hidden' name='gform_source_page_number_2' id='gform_source_page_number_2' value='1' />
+                                            <input type='hidden' name='gform_field_values' value='' />
+
+                                        </div>
+                                    </form>
+                                </div>
+                                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_2' id='gform_ajax_frame_2'></iframe>
+                                <script type='text/javascript'>jQuery(document).ready(function($){gformInitSpinner( 2, '/content/themes/newton/assets/img/pngs/spinner-s.gif' );jQuery('#gform_ajax_frame_2').load( function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_2');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_2').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;if(is_form){jQuery('#gform_wrapper_2').html(form_content.html());setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_2').offset().top); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_2').val();gformInitSpinner( 2, '/content/themes/newton/assets/img/pngs/spinner-s.gif' );jQuery(document).trigger('gform_page_loaded', [2, current_page]);window['gf_submitting_2'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('#gforms_confirmation_message_2').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_2').replaceWith('<' + 'div id=\'gforms_confirmation_message_2\' class=\'gform_confirmation_message_2 gforms_confirmation_message\'' + '>' + confirmation_content + '<' + '/div' + '>');jQuery(document).scrollTop(jQuery('#gforms_confirmation_message_2').offset().top);jQuery(document).trigger('gform_confirmation_loaded', [2]);window['gf_submitting_2'] = false;}, 50);}else{jQuery('#gform_2').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [2, current_page]);} );} );</script>
+                                <script type='text/javascript'>
+ if(typeof gf_global == 'undefined') var gf_global = {"gf_currency_config":{"name":"Amerikanska Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"http:\/\/www.newton.se\/content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"http:\/\/www.newton.se\/content\/plugins\/gravityforms\/images\/spinner.gif"};jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 2) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script>
+                                <script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [2, 1]) } ); </script>
+                            </div>
+                        </div>
+
+                        <div class="widget-divider"></div>
+
+                        <div class="widget widget-map widget-vertical">
+
+                            <h3 class="widget-title">Hitta hit</h3>
+
+
+                            <div class="map-button-holder">
+                                <span class="jq-map-button-selected btn btn-default">STOCKHOLM</span><i class="fa fa-angle-down space-left-xs"></i>
+
+                                <div class="alternatives">
+                                    <a class="btn btn-default jq-set-map" data-address-encoded="Malmv%C3%A4gen+1+%0D%0A115+41+Stockholm" data-address="Malmvägen 1<br />
+115 41 Stockholm" data-lat="59.34746639999999" data-lng="18.110955399999966">Stockholm</a>
+                                    <a class="btn btn-default jq-set-map" data-address-encoded="L%C3%A4rdomsgatan+3+%0D%0A417+56+G%C3%B6teborg" data-address="Lärdomsgatan 3<br />
+417 56 Göteborg" data-lat="57.7060223" data-lng="11.93626990000007">Göteborg</a>
+                                    <a class="btn btn-default jq-set-map" data-address-encoded="Agneslundsv%C3%A4gen+14C+%0D%0A212+15+Malm%C3%B6" data-address="Agneslundsvägen 14C<br />
+212 15 Malmö" data-lat="55.5974928" data-lng="13.02588430000003">Malmö</a>
+                                </div>
+                            </div>
+
+                            <div class="row widget-map-container">
+
+                                <div class="acf-map">
+                                    <div class="marker" data-lat="59.34746639999999" data-lng="18.110955399999966"></div>
+                                </div>
+
+                                <div class="address-overlay">
+                                    <a id="maps-link" class="address-button" target="_blank" href="http://www.google.com/maps/?q=Malmv%C3%A4gen+1+%0D%0A115+41+Stockholm"><i class="fa fa-expand"></i>Förstora</a>
+                                    <div id="maps-address" class="address-text">
+                                        Malmvägen 1<br />
+                                        115 41 Stockholm
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+                        <script type="text/javascript">
+(function($) {
+
+  function render_map( $el ) {
+
+    // var
+    var $markers = $el.find('.marker');
+
+    // vars
+    var args = {
+      zoom		  : 15,
+      center		: new google.maps.LatLng(0, 0),
+      mapTypeId	: google.maps.MapTypeId.ROADMAP,
+      mapTypeControl: false,
+      streetViewControl: false
+    };
+
+    // create map
+    window.map = new google.maps.Map( $el[0], args);
+
+    // add a markers reference
+    map.markers = [];
+
+    // add markers
+    $markers.each(function(){
+
+      add_marker( $(this), map );
+
+    });
+
+    // center map
+    center_map( map );
+
+  }
+
+  function add_marker( $marker, map ) {
+
+    // var
+    var latlng = new google.maps.LatLng( $marker.attr('data-lat'), $marker.attr('data-lng') );
+
+    // create marker
+    var marker = new google.maps.Marker({
+      position	: latlng,
+      map			: map
+    });
+
+    // add to array
+    map.markers.push( marker );
+
+    // if marker contains HTML, add it to an infoWindow
+    if( $marker.html() )
+    {
+      // create info window
+      var infowindow = new google.maps.InfoWindow({
+        content		: $marker.html()
+      });
+
+      // show info window when marker is clicked
+      google.maps.event.addListener(marker, 'click', function() {
+
+        infowindow.open( map, marker );
+
+      });
+    }
+
+  }
+
+  function center_map( map ) {
+
+    // vars
+    var bounds = new google.maps.LatLngBounds();
+
+    // loop through all markers and create bounds
+    $.each( map.markers, function( i, marker ){
+
+      var latlng = new google.maps.LatLng( marker.position.lat(), marker.position.lng() );
+
+      bounds.extend( latlng );
+
+    });
+
+    // only 1 marker?
+    if( map.markers.length == 1 )
+    {
+      // set center of map
+      map.setCenter( bounds.getCenter() );
+      map.setZoom( 15 );
+    }
+    else
+    {
+      // fit to bounds
+      map.fitBounds( bounds );
+    }
+
+  }
+
+  $(document).ready(function(){
+
+    $('.acf-map').each(function(){
+
+      render_map( $(this) );
+
+    });
+
+  });
+
+})(jQuery);
+                        </script>
+
+                    </aside>
+
+                </section>
+
+
+            </main>
+        </div><!-- /.content -->
+    </div><!-- /.wrap -->
+
+    <footer class="container" role="contentinfo">
+
+        <div class="row">
+
+            <div class="footer-left col-md-12 col-lg-4">
+
+                <div class="footer-contact">
+                    <img class="footer-logo" src="http://www.newton.se/content/themes/newton/assets/img/pngs/logo-footer.png" alt="" />
+                    <ul class="cleanlist">
+                        <li>Telefon: 08-410 456 00</li>
+                        <li>E-post: <a href="mailto:utbildning@newton.se">utbildning@newton.se</a></li>
+                        <li><a href="http://www.newton.se/om-webbplatsen/">Om webbplatsen</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <label>
+                        Anmäl dig till vårt nyhetsbrev
+                    </label>
+                    <script type="text/javascript">
+          function MailingListValidation(SubscriberForm) {
+            var counter = 0;
+
+            for (i=1; i<=SubscriberForm.pf_CounterMailinglists.value; i++) {
+              var checkBoxName = "pf_MailinglistName" + i;
+              if (document.getElementsByName(checkBoxName)[0].checked || document.getElementsByName(checkBoxName)[0].type == "hidden") counter++;
+            }
+
+            if (counter == 0) {
+              alert("En eller flera e-postlistor krävs för detta formulär.");
+              return false;
+            }
+          }
+                    </script>
+                    <form class="form-inline" name="SubscriberForm" action="http://www.anpdm.com/public/process-subscription-form.aspx?formId=474A5E407840445B4671" onsubmit="return MailingListValidation(this);" method="post">
+                        <input class="form-control" type="text" name="pf_Email" placeholder="Ange din e-post" value="" size="30">
+                        <input type="checkbox" name="pf_MailinglistName1" style="display: none;" checked value="390161">
+                        <input class="btn btn-primary" type="submit" name="Submit" value="Anmäl"><td style="display: none;">
+                            <select name="pf_DeliveryFormat" style="display: none;">
+                                <option style="display: none;" value="HTML" selected>HTML</option>
+                                <option value="Text">Text</option>
+                            </select>
+                            <!-- Ändra inte namn eller typ på Skicka-knappen. För att ändra den synliga texten, ändra istället texten för \ "värde \" -->
+                            <input type="hidden" name="pf_FormType" value="OptInForm">
+                            <input type="hidden" name="pf_OptInMethod" value="SingleOptInMethod">
+                            <input type="hidden" name="pf_CounterDemogrFields" value="0">
+                            <input type="hidden" name="pf_CounterMailinglists" value="1">
+                            <input type="hidden" name="pf_AccountId" value="5353">
+                            <input type="hidden" name="pf_ListById" value="1">
+                            <input type="hidden" name="pf_Version" value="2">
+                    </form>
+                </div>
+
+                <div class="footer-social-media">
+                    <label>Följ Newton i sociala medier</label>
+
+                    <div>
+
+                        <span class="social-button">
+                            <a target="_blank" href="https://www.facebook.com/Newton.Yh"><i class="fa fa-facebook"></i>Facebook</a>
+                        </span>
+
+                        <span class="social-button">
+                            <a target="_blank" href="http://instagram.com/newtonyh"><i class="fa fa-instagram"></i>Instagram</a>
+                        </span>
+
+
+                        <span class="social-button">
+                            <a target="_blank" href="https://www.linkedin.com/company/newton-kompetensutveckling"><i class="fa fa-linkedin"></i>LinkedIn</a>
+                        </span>
+
+                        <span class="social-button">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCmPK24ACND0bYiirPOp7gYA"><i class="fa fa-youtube"></i>YouTube</a>
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <a class="link-read-more footer-student-portal-link" href="https://newton.learnpoint.se/LoginForms/LoginForm.aspx?ReturnUrl=%2f"><i class="plain-icon icon-read-more"></i> Logga in på studentportalen</a>
+
+            </div>
+
+            <div class="menu-footer-lankar-container">
+                <ul id="menu-footer-lankar" class="footer-menu col-md-12 col-lg-8">
+                    <li id="menu-item-1501" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1501">
+                        <a href="/utbildningar/filter/yh/">Yrkeshögskoleutbildningar</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-2304" class="menu-item menu-item-type-post_type menu-item-object-education menu-item-2304"><a href="http://www.newton.se/utbildning/energi-och-miljosamordnare/">Energi- och miljösamordnare</a></li>
+                            <li id="menu-item-2306" class="menu-item menu-item-type-post_type menu-item-object-education menu-item-2306"><a href="http://www.newton.se/utbildning/fastighetsforvaltare/">Fastighetsförvaltare</a></li>
+                            <li id="menu-item-2302" class="menu-item menu-item-type-post_type menu-item-object-education menu-item-2302"><a href="http://www.newton.se/utbildning/kravanalytikerit/">Kravanalytiker IT</a></li>
+                            <li id="menu-item-2544" class="menu-item menu-item-type-post_type menu-item-object-education menu-item-2544"><a href="http://www.newton.se/utbildning/systemutvecklare-java/">Systemutvecklare JAVA</a></li>
+                            <li id="menu-item-2300" class="menu-item menu-item-type-post_type menu-item-object-education menu-item-2300"><a href="http://www.newton.se/utbildning/systemutvecklare-net-malmo/">Systemutvecklare .NET</a></li>
+                            <li id="menu-item-2303" class="menu-item menu-item-type-post_type menu-item-object-education menu-item-2303"><a href="http://www.newton.se/utbildning/teknisk-foretagssaljare/">Teknisk Företagssäljare</a></li>
+                            <li id="menu-item-2543" class="menu-item menu-item-type-post_type menu-item-object-education menu-item-2543"><a href="http://www.newton.se/utbildning/vvs-ingenjor/">VVS-ingenjör</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-1502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1502">
+                        <a href="/utbildningar/filter/diplom/">Diplomutbildningar</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-2308" class="menu-item menu-item-type-post_type menu-item-object-education menu-item-2308"><a href="http://www.newton.se/utbildning/diplomerad-fastighetsforvaltare/">Diplomerad Fastighetsförvaltare</a></li>
+                            <li id="menu-item-2309" class="menu-item menu-item-type-post_type menu-item-object-education menu-item-2309"><a href="http://www.newton.se/utbildning/fastighetsekonom/">Diplomerad Fastighetsekonom</a></li>
+                            <li id="menu-item-2307" class="menu-item menu-item-type-post_type menu-item-object-education menu-item-2307"><a href="http://www.newton.se/utbildning/projektledare/">Diplomerad Projektledare Bygg/Fastighet</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-2294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2294">
+                        <a href="http://www.newton.se/tjanster/">Företag</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-2295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2295"><a href="http://www.newton.se/tjanster/uppdragsutbildningar/">Uppdragsutbildningar</a></li>
+                            <li id="menu-item-2296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2296"><a href="http://www.newton.se/tjanster/seminarier/">Seminarier</a></li>
+                            <li id="menu-item-2297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2297"><a href="http://www.newton.se/tjanster/lets-talk-about/">Let&#8217;s talk about</a></li>
+                            <li id="menu-item-1481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481"><a href="http://www.newton.se/tjanster/auktorisation/">AFF-Auktorisation</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-1441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1441">
+                        <a href="http://www.newton.se/om-newton/">Om Newton</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-1987" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1987"><a href="http://www.newton.se/om-newton/alumni/">Alumni</a></li>
+                            <li id="menu-item-2292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2292"><a href="http://www.newton.se/om-newton/aktuellt/">Aktuellt</a></li>
+                            <li id="menu-item-1495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1495"><a href="http://www.newton.se/om-newton/sir-isaac-newton/">Sir Isaac Newton</a></li>
+                            <li id="menu-item-1493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1493"><a href="http://www.newton.se/om-newton/lediga-tjanster/">Lediga tjänster</a></li>
+                            <li id="menu-item-1492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1492"><a href="http://www.newton.se/om-newton/kontakta-oss/">Kontakta Newton</a></li>
+                            <li id="menu-item-2293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2293"><a href="http://www.newton.se/om-newton/ledning/">Affärsidé och Ledning</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script type='text/javascript' src='http://www.newton.se/content/themes/newton/assets/js/scripts.min.js?3364bce2cc4137a565487ed4ec6838a5'></script>
+    <script type='text/javascript' src='http://www.newton.se/content/plugins/gravityforms/js/jquery.json-1.3.js?ver=1.9.6'></script>
+    <script type='text/javascript' src='http://www.newton.se/content/plugins/gravityforms/js/gravityforms.min.js?ver=1.9.6'></script>
+    <script type='text/javascript' src='http://www.newton.se/content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=1.9.6'></script>
+
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.766 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-05-22 03:34:43 -->
+<!-- super cache -->
